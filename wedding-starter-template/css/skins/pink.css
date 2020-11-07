@@ -1,5 +1,15 @@
 /*  pink color style    */
 .header .nav ul li a.active,
-.header .nav ul li:hover a {
+.header .nav ul li:hover a,
+section.couple .row .happy-couple .couple-name,
+i.fa-heart,
+.social-links a i {
   color: #fb839e;
+}
+section.couple .row .happy-couple img,
+.social-links a i {
+  border-color: #fb839e;
+}
+.social-links a:hover i {
+  background-color: #fb839e;
 }
