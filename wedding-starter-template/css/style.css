@@ -26,11 +26,12 @@ p {
 a {
   text-decoration: none;
 }
-.section-title {
+h2.section-title {
   text-align: center;
   font-family: "Great Vibes", cursive;
   font-size: 45px;
   margin-bottom: 60px;
+  letter-spacing: 2px;
 }
 /* header */
 .header {
@@ -225,18 +226,17 @@ section.couple i.fa-heart {
 }
 .social-links a:hover i {
   color: white;
-  background-color: #fb839e;
 }
 
 /* story section */
 section.story-section {
-  padding: 70px 20px 70px;
+  padding: 70px 20px 50px;
+  /* border: 2px solid red; */
 }
 .story-box .story-img,
 .story-box .story-text {
   width: 50%;
-  padding: 0 40px;
-  padding-bottom: 60px;
+  padding: 0 60px 60px;
 }
 .story-img img {
   max-width: 100%;
@@ -248,7 +248,6 @@ section.story-section {
   text-align: right;
 }
 .story-box .story-text h3 {
-  color: #fb839e;
   font-size: 20px;
   font-weight: 500;
 }
@@ -273,6 +272,7 @@ section.story-section {
 }
 .story-box .row div:first-child .fa-heart {
   position: absolute;
+  display: block;
   top: 5px;
   right: -12px;
   width: 26px;
@@ -282,4 +282,58 @@ section.story-section {
   text-align: center;
   background-color: #f3f2f1;
   z-index: 1;
+}
+
+/* event section */
+section.event-section {
+  padding: 70px 20px 70px;
+}
+section.event-section .section-title {
+  color: white;
+  font-size: 38px;
+}
+section.event-section .row {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+section.event-section .row .event {
+  /* width: 330px; */
+  width: 33.3%;
+  padding: 15px;
+}
+section.event-section .eventbox {
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.4);
+}
+section.event-section .eventbox-inner {
+  border: 4px solid transparent;
+  padding: 30px 15px 60px;
+  position: relative;
+}
+section.event-section .eventbox h3 {
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-weight: 500;
+  border-bottom: 1px solid #ccc;
+  font-size: 20px;
+}
+section.event-section .eventbox p.date,
+section.event-section .row .eventbox p.time {
+  font-weight: 500;
+}
+section.event-section .row .eventbox p.time {
+  margin-bottom: 20px;
+}
+section.event-section .row .event:nth-child(2) {
+  transform: translateY(40px);
+}
+section.event-section .eventbox-inner .flower {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 17px);
 }

@@ -4,13 +4,18 @@
 section.couple .row .happy-couple .couple-name,
 i.fa-heart,
 .social-links a i,
-.story-box .story-text h3 {
+.story-box .story-text h3,
+.story-box .story-text h3,
+section.event-section .eventbox p.date,
+section.event-section .row .eventbox p.time {
   color: #fb839e;
 }
 section.couple .row .happy-couple img,
-.social-links a i {
+.social-links a i,
+section.event-section .eventbox-inner {
   border-color: #fb839e;
 }
-.social-links a:hover i {
+.social-links a:hover i,
+section.event-section {
   background-color: #fb839e;
 }
