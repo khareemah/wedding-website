@@ -9,6 +9,12 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #f3f2f1;
 }
+p {
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 26px;
+  font-size: 14px;
+}
 .container {
   max-width: 1140px;
   margin: auto;
@@ -23,8 +29,8 @@ a {
 .section-title {
   text-align: center;
   font-family: "Great Vibes", cursive;
-  font-size: 50px;
-  margin-bottom: 40px;
+  font-size: 45px;
+  margin-bottom: 60px;
 }
 /* header */
 .header {
@@ -114,9 +120,10 @@ section.home .home-text p {
   margin-bottom: 20px;
   opacity: 0;
   animation: fadeIn linear 0.5s forwards;
+  color: white;
 }
 section.home .home-text h1 {
-  font-size: 70px;
+  font-size: 80px;
   font-weight: normal;
   font-family: "Great Vibes", cursive;
   opacity: 0;
@@ -147,7 +154,7 @@ section.home .home-text span {
 
 /* couple section */
 section.couple {
-  padding: 70px 20px 70px;
+  padding: 70px 20px 0;
 }
 section.couple .row .happy-couple {
   width: 50%;
@@ -182,19 +189,20 @@ section.couple .row .happy-couple .couple-name {
   margin-bottom: 20px;
 }
 section.couple .row .happy-couple p {
-  line-height: 26px;
   font-size: 14px;
 }
-i.fa-heart {
+section.couple i.fa-heart {
   position: absolute;
   top: 30%;
-  right: -14px;
-  width: 30px;
   text-align: center;
   padding: 5px;
   background-color: #f3f2f1;
   z-index: 1;
-  font-size: 18px;
+  font-size: 14px;
+  right: -12px;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
 }
 .social-links {
   margin: 20px 0;
@@ -218,4 +226,60 @@ i.fa-heart {
 .social-links a:hover i {
   color: white;
   background-color: #fb839e;
+}
+
+/* story section */
+section.story-section {
+  padding: 70px 20px 70px;
+}
+.story-box .story-img,
+.story-box .story-text {
+  width: 50%;
+  padding: 0 40px;
+  padding-bottom: 60px;
+}
+.story-img img {
+  max-width: 100%;
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+.story-box .story-text:nth-child(1) {
+  text-align: right;
+}
+.story-box .story-text h3 {
+  color: #fb839e;
+  font-size: 20px;
+  font-weight: 500;
+}
+.story-box .story-text .date {
+  color: #555;
+  font-weight: 500;
+  margin: 7px 0 0;
+  font-size: 14px;
+}
+
+.story-box .row div:first-child {
+  position: relative;
+}
+.story-box .row div:first-child::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #ccc;
+}
+.story-box .row div:first-child .fa-heart {
+  position: absolute;
+  top: 5px;
+  right: -12px;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #f3f2f1;
+  z-index: 1;
 }

@@ -3,7 +3,8 @@
 .header .nav ul li:hover a,
 section.couple .row .happy-couple .couple-name,
 i.fa-heart,
-.social-links a i {
+.social-links a i,
+.story-box .story-text h3 {
   color: #fb839e;
 }
 section.couple .row .happy-couple img,
