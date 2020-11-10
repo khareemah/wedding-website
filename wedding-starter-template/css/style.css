@@ -124,11 +124,11 @@ section.home .home-text p {
   color: white;
 }
 section.home .home-text h1 {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: normal;
   font-family: "Great Vibes", cursive;
   opacity: 0;
-  margin-bottom: 20px;
+  margin: 20px 0;
   animation: fadeIn linear 0.5s forwards;
   animation-delay: 0.5s;
 }
@@ -145,7 +145,7 @@ section.home .home-text span {
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateY(-50px);
+    transform: translateY(-30px);
   }
   100% {
     opacity: 1;
@@ -230,7 +230,7 @@ section.couple i.fa-heart {
 
 /* story section */
 section.story-section {
-  padding: 70px 20px 50px;
+  padding: 70px 20px 70px;
   /* border: 2px solid red; */
 }
 .story-box .story-img,
@@ -290,7 +290,6 @@ section.event-section {
 }
 section.event-section .section-title {
   color: white;
-  font-size: 38px;
 }
 section.event-section .row {
   justify-content: center;
@@ -298,18 +297,17 @@ section.event-section .row {
   text-align: center;
 }
 section.event-section .row .event {
-  /* width: 330px; */
-  width: 33.3%;
+  width: 330px;
   padding: 15px;
 }
 section.event-section .eventbox {
   background-color: white;
   padding: 15px;
-  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0px 14px rgba(0, 0, 0, 0.4);
 }
 section.event-section .eventbox-inner {
   border: 4px solid transparent;
-  padding: 30px 15px 60px;
+  padding: 30px 15px 80px;
   position: relative;
 }
 section.event-section .eventbox h3 {
@@ -335,5 +333,5 @@ section.event-section .eventbox-inner .flower {
   height: 35px;
   position: absolute;
   bottom: 0;
-  left: calc(50% - 17px);
+  left: calc(50% - 17.5px);
 }
