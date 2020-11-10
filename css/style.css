@@ -206,7 +206,7 @@ section.couple i.fa-heart {
   line-height: 26px;
 }
 .social-links {
-  margin: 20px 0;
+  padding: 10px 0 15px;
 }
 .social-links a {
   display: inline-block;
@@ -334,4 +334,49 @@ section.event-section .eventbox-inner .flower {
   position: absolute;
   bottom: 0;
   left: calc(50% - 17.5px);
+}
+
+/*People section */
+section.people-section {
+  padding: 70px 20px 20px;
+}
+section.people-section .people-btn {
+  text-align: center;
+  margin-bottom: 80px;
+}
+section.people-section .people-btn button.bridesmaid,
+section.people-section .people-btn button.groomsmen {
+  border: none;
+  outline: none;
+  background-color: #ccc;
+  padding: 10px;
+  margin-left: 5px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+}
+section.people-section .people-btn button.active {
+  color: white;
+}
+
+section.people-section .people {
+  width: 25%;
+  padding: 0 15px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+section.people-section .people-card {
+  padding: 0 15px;
+  background-color: white;
+}
+section.people-section .people img {
+  max-width: 100%;
+  display: block;
+  transform: translateY(-22px);
+  box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.4);
+}
+section.people-section .people h3 {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  text-transform: capitalize;
 }

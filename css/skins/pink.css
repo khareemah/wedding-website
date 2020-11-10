@@ -16,6 +16,7 @@ section.event-section .eventbox-inner {
   border-color: #fb839e;
 }
 .social-links a:hover i,
-section.event-section {
+section.event-section,
+section.people-section .people-btn button.active {
   background-color: #fb839e;
 }
